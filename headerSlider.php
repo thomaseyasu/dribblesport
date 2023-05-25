@@ -10,48 +10,34 @@
 
   <!-- Demo styles -->
   <style>
-    html,
-    body {
-      position: relative;
-      height: 100%;
-    }
 
-    body {
-      background: #eee;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-      margin: 0;
-      padding: 0;
-    }
 
     .swiper {
       width: 100%;
-      height: 100%;
     }
 
     .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
+      //text-align: center;
+      font-size: 16px;
+      padding: 0px;
     }
 
     .swiper-slide img {
       display: block;
       width: 100%;
-      height: 100%;
+      //height: auto;
       object-fit: cover;
+      float: center;
+      align-items: center;
+      justify-content: center;
     }
+
   </style>
 </head>
 
 <body>
   <!-- Swiper -->
-  <div class="swiper mySwiper">
+  <div class="swiper mySwiper1">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <div>
@@ -65,7 +51,7 @@
         I will fool around with it some more. It was a little quirky an image wider than taller that
         needed to be responsive, but there are lots of applications this
         </p>
-
+        <h3>Read More</h3>
         </div>
       </div>
       <div class="swiper-slide">
@@ -78,7 +64,7 @@
         responsive, but there are lots of applications for this Yeah. It is definitely a great answer.
         I will fool around with it some more. It was a little quirky for an image wider than taller that
         needed to be responsive, but there are lots of applications for this</p>
-
+        <h3>Read More</h3>
 
         </div>
       </div>
@@ -92,13 +78,29 @@
         responsive, but there are lots of applications for this Yeah. It is definitely a great answer.
         I will fool around with it some more. It was a little quirky for an image wider than taller that
         needed to be responsive, but there are lots of applications for this</p>
-
+        <h3>Read More</h3>
 
         </div>
       </div>
+      <div class="swiper-slide">
+        <div>
+
+        <img class="slideimg" src='./source/image/birhanbank.jpg' />
+        <h3>header four</h3>
+
+        <p class="slidepara">Yeah. It is definitely a great answer. I will fool around with
+        it some more. It was a little quirky for an image wider than taller that needed to be
+        responsive, but there are lots of applications for this Yeah. It is definitely a great answer.
+        I will fool around with it some more. It was a little quirky for an image wider than taller that
+        needed to be responsive, but there are lots of applications for this</p>
+        <h3>Read More</h3>
+
+        </div>
+
+      </div>
 
     </div>
-    <div class="swiper-button-next"></div>
+   <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     <div class="swiper-pagination"></div>
     <div class="autoplay-progress">
@@ -109,25 +111,14 @@
     </div>
   </div>
 
-  <!-- Swiper JS -->
+   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      freeMode: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script>
-  <script>
     const progressCircle = document.querySelector(".autoplay-progress svg");
     const progressContent = document.querySelector(".autoplay-progress span");
-    var swiper = new Swiper(".mySwiper", {
+    var swiper = new Swiper(".mySwiper1", {
       slidesPerView: 1,
       spaceBetween: 30,
       centeredSlides: true,
@@ -151,6 +142,7 @@
       }
     });
   </script>
+
 </body>
 
 </html>

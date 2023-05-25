@@ -17,6 +17,9 @@ background-color: red;
     float: left;
 
 }
+.headlinecontainerr{
+    background-color: #fff;
+}
 h2{
 
     text-align: center;
@@ -59,7 +62,7 @@ h2{
  justify-content: center;
 }
 .mainnewsdata{
- width: 700%;
+ width: 100%;
  background-color: #fff;
 }
 .newsword{

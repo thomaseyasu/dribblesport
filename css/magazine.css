@@ -1,6 +1,6 @@
 #magazine {
-height: 1200px;
-//overflow: scroll;
+width: 100%;
+height: auto;
 }
 .header {
     background-color: #fff;
@@ -8,21 +8,21 @@ height: 1200px;
 h2{
 
     text-align: center;
-    padding: 20px;
+    padding: 0px;
     color: blue;
 }
 .containerrr {
-    width: 70%;
+    width: 60%;
     align-items: center;
     justify-content: center;
-    background-color: green;
+    background-color: #fff;
 
 }
 .row-1 {
     width: 100%;
     float: left;
-    padding: 15px;
-    height: 800px;
+    padding: 1px;
+    height: auto;
 
 }
 .magazineleftside {
@@ -33,7 +33,7 @@ h2{
 }
 .magazinerightside {
     background-color: #fff;
-    width: 35%;
+    width: 100%;
     float: left;
 }
 .rightside {

@@ -9,20 +9,20 @@
 	<!--  title  -->
 
 	<title>Dribble Sport</title>
-<link rel="stylesheet" href="css/togle.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/togle.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/news.css">
 	<link rel="stylesheet" href="css/magazine.css">
 	<link rel="stylesheet" href="style/main.css">
-	<link rel="stylesheet" href="style/slider-def.css">
 	<link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
-	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-
-	<script src="ovc/counter.js"></script>
-	<link rel="stylesheet" href="magicscroll/magicscroll.css"/>
+    <link rel="stylesheet" href="magicscroll/magicscroll.css"/>
     <script src="magicscroll/magicscroll.js"></script>
+    <script src="ovc/counter.js"></script>
+
 
 
 
@@ -30,97 +30,143 @@
 
 </head>
 
-<body style="margin-top: 0px; width: 100%; background-color: #fff">
+<body>
 
-	<?php
-	  include('header.php');
 
-	?>
-	<div style="margin-top: 100px; width: 100%">
-	<div style="width: 55%; height: 400px; float: left;">
+<div id="thecontainer" class="thecontainer">
+
+    <div class="headermenu">
         <?php
-	        include('headerSlider.php');
-	    ?>
-	</div>
-	<div style="width: 45%; float: right">
+          include('header.php');
+        ?>
+    </div>
+    <div id="top" class="top">
+
+        <div class="topLeft">
+            <?php
+              include('headerSlider.php');
+            ?>
+        </div>
+        <div class="topRight">
+            <?php
+              include('newsheadline.php');
+            ?>
+        </div>
+    </div>
+    <div>
+        <h3 class="headingC3">All Sport Heading News</h3>
+    </div>
+    <div id="headlines" class="headlines">
         <?php
-	        include('newsheadline.php');
-	    ?>
-	</div>
-	<div>
-	</div>
-	</div>
-
-	<div class="MagicScroll" data-options="autoplay: 1000; step: 1; mode: carousel; speed: 4000;" style="margin-top: 20px; width: 100%; height: 180px">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
+              include('easyslider.php');
+            ?>
     </div>
-<div style="width: 100%; height: 600px">
+    <div class="MagicScroll" data-options="speed: 4000; autoplay: 1; mode: carousel; arrows: inside; pagination: true; draggable: true;">
+        <img class="MSimg1" src='./source/image/birhanbank.jpg' />
+        <img class="MSimg1" src='./source/image/birhanbank.jpg' />
+        <img class="MSimg1" src='./source/image/birhanbank.jpg' />
+        <img class="MSimg1" src='./source/image/birhanbank.jpg' />
+        <img class="MSimg1" src='./source/image/birhanbank.jpg' />
 
-          <?php
-	  include('newsSlider.php');
 
-	?>
-	</div>
-
-	<section id="news" style="background-color: #fff; padding: 0px; margin: 0px">
-            <?php
-	  include('news.php');
-
-	?>
-	</section>
-
-	<section id="mainNews" style="background-color: transparent; padding: 0px; margin-top: -220px">
-	<div class="mainnewsheader" style="width: 70%; height: auto">
-        <h2 style="padding: 20px;">Atheletics Sport News</h2>
-       <?php
-	  include('easyslider.php');
-
-	?>
     </div>
 
-	</section>
+    <div id="newsSliding" class="newsSliding">
+        <div class="newsSlideLeft">
+            <div class="newsSlideLeft1">
+            <div>
+            <h3 class="headingC3">Sport Headline one</h3>
+            </div>
 
-	<div class="MagicScroll" data-options="step: 0; speed: 4000;">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
+            <div>
+                <?php
+              include('easyslider.php');
+            ?>
+            </div>
+
+            </div>
+            <div class="newsSlideLeft2">
+            <div>
+            <h3 class="headingC3">Sport Headline two</h3>
+            </div>
+
+            <div>
+                <?php
+              include('easyslider.php');
+            ?>
+            </div>
+            </div>
+            <div class="newsSlideLeft1">
+            <div>
+            <h3 class="headingC3">Sport Headline three</h3>
+            </div>
+
+            <div>
+                <?php
+              include('easyslider.php');
+            ?>
+            </div>
+            </div>
+            <div class="newsSlideLeft2">
+            <div>
+            <h3 class="headingC3">Sport Headline four</h3>
+            </div>
+
+            <div>
+                <?php
+              include('easyslider.php');
+            ?>
+            </div>
+            </div>
+
+        </div>
+        <div class="newsSlideRight">
+            <div class="newsSlideRight1">
+                <div class="MagicScroll" data-options="speed: 2000; autoplay: 3; mode: carousel; orientation: vertical; arrows: inside; pagination: true; draggable: true;"><img class="slideimg" src='./source/image/birhanbank.jpg' />
+        <img class="MSimg2" src='./source/image/birhanbank.jpg' />
+        <img class="MSimg2" src='./source/image/birhanbank.jpg' />
+        <img class="MSimg2" src='./source/image/birhanbank.jpg' />
+        <img class="MSimg2" src='./source/image/birhanbank.jpg' />
+
+
     </div>
-	<section id="magazine" style="background-color: #fff; padding: 0px; margin: 0px">
-            <?php
-	  include('magazine.php');
+            </div>
+            <div class="newsSlideRight2">
+            </div>
+        </div>
 
-	?>
-	</section>
+    </div>
 
-	<div class="MagicScroll" data-options="speed: 2400; autoplay: 1000; items: 3;">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
-        <img src="./source/image/birhanbank.jpg">
+    <div id="newsScrolling" class="newsScrolling">
+    </div>
+
+    <div id="bestFooter" class="bestFooter">
+
+    <div class="socialMediaIcons">
     </div>
 
 
+    <div class="developby">
+    <p class="footerText">Web Developed by BuyIt Technology Solution INC, 2023 G.C @coppyright reserved.</p>
+    </div>
+    <div class="address">
+    <p class="footerText">Addis Ababa, Ethiopia</p>
+
+    </div>
+           <!--
 	<?php include('homefooter.php'); ?>
+	-->
 
     <?php
 	  include('down.php');
 	?>
+    </div>
+
+</div>
+
+
+
+
 
 	<!-- jquery -->
 	<script src="js/jquery.js"></script>
@@ -135,6 +181,8 @@
 		<!-- custom css -->
 		<script src = "js/custom.js" >
 	</script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
 
 
 

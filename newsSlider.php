@@ -10,41 +10,26 @@
 
   <!-- Demo styles -->
   <style>
-    html,
-    body {
-      position: relative;
-      height: 100%;
-    }
 
-    body {
-      background: #eee;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-      margin: 0;
-      padding: 0;
-    }
 
     .swiper {
       width: 100%;
-      height: 100%;
     }
 
     .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
+      //text-align: center;
+      font-size: 16px;
+      padding: 0px;
     }
 
     .swiper-slide img {
       display: block;
       width: 100%;
-      //height: 100%;
+      height: 140px;
       object-fit: cover;
+      float: center;
+      align-items: center;
+      justify-content: center;
     }
   </style>
 </head>
@@ -159,7 +144,7 @@
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
+      slidesPerView: 1,
       spaceBetween: 30,
       freeMode: true,
       pagination: {
@@ -172,7 +157,7 @@
     const progressCircle = document.querySelector(".autoplay-progress svg");
     const progressContent = document.querySelector(".autoplay-progress span");
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 3,
+      slidesPerView: 1,
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {

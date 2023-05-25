@@ -1,12 +1,51 @@
-<img class="row" src="./source/image/birhanbank.jpg" style="width: 100%; height: 220px; align-items: center; justify-content: center;"/>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-<?php
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  z-index: 999;
+
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="header" id="myHeader">
+  <?php
 	  include('language.php');
 
 	?>
 
 
-	<div class='lav' style="width: 100%">
+	<div class='lav' style="width: 90%">
 		<a href="javascript:void(0);" class="ic menu">
 			<span class="line"></span>
 			<span class="line"></span>
@@ -50,7 +89,7 @@
 
 			</li>
 		</ul>
-	</div> 
+	</div>
 	<div id="sidebar">
 			<div class="toggle-btn" onclick="toggleSidebar();">
 				<span></span>
@@ -67,15 +106,15 @@
 					<ul class="logolist2">
 						<li><a href="index.php #information">
 								commissioner
-								
+
 							</a></li><br>
 						<li><a href="index.php #information">
 								vise commissioner
-								
+
 							</a></li><br>
 						<li><a href="index.php #information">
 								organization leader
-								
+
 							</a></li><br>
 					</ul>
 				</li>
@@ -94,3 +133,24 @@
 				</li>
 			</ul>
 		</div>
+</div>
+
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
