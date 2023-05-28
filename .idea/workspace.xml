@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f020af8b-2628-4f83-94c6-d4d31c85fe1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/headerswiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footeradvert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matchs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tableone.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabletwo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/magazine.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/magazine.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/news.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/down.php" beforeDir="false" afterPath="$PROJECT_DIR$/down.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easyslider.php" beforeDir="false" afterPath="$PROJECT_DIR$/easyslider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/headerSlider.php" beforeDir="false" afterPath="$PROJECT_DIR$/headerSlider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magazine.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazine.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsSlider.php" beforeDir="false" afterPath="$PROJECT_DIR$/newsSlider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsheadline.php" beforeDir="false" afterPath="$PROJECT_DIR$/newsheadline.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ovc/counter.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/ovc/counter.sqlite" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

@@ -355,16 +355,20 @@ navbar-nav {
 
 	#sidebar #logolist li .logolist2 li a:hover {
 		color: black;
-		font-size: 16px;lav
+		font-size: 16px;
 		text-shadow: 10px 10px 10px 10px orange;
 	}
-
+ul li #active {
+		color: red;
+		font-size: 16px;
+		text-shadow: 10px 10px 10px 10px orange;
+	}
 
 	#sidebar .toggle-btn {
 		position: absolute;
 		left: 300px;
 		margin-top: 0px;
-		background: #ffff1f;
+		background: #f1f;
 		border-radius: 10px;
 		top: 20px;
 		cursor: pointer;

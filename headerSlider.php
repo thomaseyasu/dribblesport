@@ -31,6 +31,13 @@
       align-items: center;
       justify-content: center;
     }
+    .swiper-slide > a {
+        text-decoration: none;
+        color: #000;
+    }
+    .swiper-slide > a:hover {
+        color: #fff;
+    }
 
   </style>
 </head>
@@ -40,6 +47,8 @@
   <div class="swiper mySwiper1">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
+
+      <a href='headerSlider.php'>
         <div>
 
         <img class="slideimg" src='./source/image/birhanbank.jpg' />
@@ -53,8 +62,10 @@
         </p>
         <h3>Read More</h3>
         </div>
+        </a>
       </div>
       <div class="swiper-slide">
+      <a href='headerSlider.php'>
         <div>
 
         <img class="slideimg" src='./source/image/birhanbank.jpg' />
@@ -67,8 +78,10 @@
         <h3>Read More</h3>
 
         </div>
+        </a>
       </div>
       <div class="swiper-slide">
+      <a href='headerSlider.php'>
         <div>
 
         <img class="slideimg" src='./source/image/birhanbank.jpg' />
@@ -81,8 +94,10 @@
         <h3>Read More</h3>
 
         </div>
+        </a>
       </div>
       <div class="swiper-slide">
+      <a href='headerSlider.php'>
         <div>
 
         <img class="slideimg" src='./source/image/birhanbank.jpg' />
@@ -96,6 +111,7 @@
         <h3>Read More</h3>
 
         </div>
+        </a>
 
       </div>
 
@@ -123,7 +139,7 @@
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {
-        delay: 2500,
+        delay: 4500,
         disableOnInteraction: false
       },
       pagination: {

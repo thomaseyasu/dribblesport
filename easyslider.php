@@ -25,15 +25,29 @@
       justify-content: center;
       align-items: center;
     }
+    .swiper-slide:hover{
+        background-color: grey;
+        color: #fff;
+    }
+    .swiper-slide > a {
+        text-decoration: none;
+        color: #000;
+    }
+    .swiper-slide > a:hover {
+        color: #fff;
+    }
 
     .swiper-slide img {
       display: block;
       width: 100%;
-      height: auto;
+      height: 120px;
       object-fit: cover;
       float: center;
       align-items: center;
       justify-content: center;
+    }
+    .swiper-slide h3 {
+
     }
   </style>
 </head>
@@ -43,6 +57,7 @@
   <div class="swiper mySwiper2">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
+      <a href='easyslider.php'>
         <div>
 
         <img class="slideimg" src='./source/image/birhanbank.jpg' />
@@ -51,8 +66,10 @@
         it some more. It was a little quirky for an image wider than taller that needed to be
         responsive, but there are lots of applications for this Yeah.</p>
         </div>
+        </a>
       </div>
       <div class="swiper-slide">
+      <a href='easyslider.php'>
         <div>
 
         <img class="slideimg" src='./source/image/birhanbank.jpg' />
@@ -63,8 +80,10 @@
 
 
         </div>
+        </a>
       </div>
       <div class="swiper-slide">
+      <a href='easyslider.php'>
         <div>
 
         <img class="slideimg" src='./source/image/birhanbank.jpg' />
@@ -75,9 +94,11 @@
 
 
         </div>
+        </a>
       </div>
 
       <div class="swiper-slide">
+      <a href='easyslider.php'>
         <div>
 
         <img class="slideimg" src='./source/image/birhanbank.jpg' />
@@ -86,8 +107,10 @@
         it some more. It was a little quirky for an image wider than taller that needed to be
         responsive, but there are lots of applications for this Yeah.</p>
         </div>
+        </a>
       </div>
       <div class="swiper-slide">
+      <a href='easyslider.php'>
         <div>
 
         <img class="slideimg" src='./source/image/birhanbank.jpg' />
@@ -98,8 +121,10 @@
 
 
         </div>
+        </a>
       </div>
       <div class="swiper-slide">
+      <a href='easyslider.php'>
         <div>
 
         <img class="slideimg" src='./source/image/birhanbank.jpg' />
@@ -110,6 +135,7 @@
 
 
         </div>
+        </a>
       </div>
 
     </div>
@@ -135,7 +161,7 @@
         clickable: true,
       },
       autoplay: {
-        delay: 2500,
+        delay: 5500,
         disableOnInteraction: false
       },
       navigation: {

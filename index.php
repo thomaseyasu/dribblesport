@@ -47,12 +47,30 @@
               include('headerSlider.php');
             ?>
         </div>
-        <div class="topRight">
+        <div id="allsportheadlines" class="topRight">
             <?php
               include('newsheadline.php');
             ?>
         </div>
     </div>
+
+    <div>
+        <h3 class="matchesHeading">Local Live Matches</h3>
+    </div>
+    <div id="matchesHeadlines" class="matchesHeadlines">
+        <?php
+              include('matchs.php');
+            ?>
+    </div>
+    <div>
+        <h3 class="matchesHeading">Foreign Live Matches</h3>
+    </div>
+    <div id="matchesHeadlines" class="matchesHeadlines">
+        <?php
+              include('matchs.php');
+            ?>
+    </div>
+
     <div>
         <h3 class="headingC3">All Sport Heading News</h3>
     </div>
@@ -121,29 +139,101 @@
 
         </div>
         <div class="newsSlideRight">
-            <div class="newsSlideRight1">
-                <div class="MagicScroll" data-options="speed: 2000; autoplay: 3; mode: carousel; orientation: vertical; arrows: inside; pagination: true; draggable: true;"><img class="slideimg" src='./source/image/birhanbank.jpg' />
-        <img class="MSimg2" src='./source/image/birhanbank.jpg' />
-        <img class="MSimg2" src='./source/image/birhanbank.jpg' />
-        <img class="MSimg2" src='./source/image/birhanbank.jpg' />
-        <img class="MSimg2" src='./source/image/birhanbank.jpg' />
+            <div class="newsSlideRight2">
+                 <video width="100%" height="400" controls autoplay muted>
+                  <source src="Encryption_to_SHA256_React_Native.mp4" type="video/mp4">
+                </video>
+
+            </div>
+
+            <div class="newsSlideRight2">
+                 <div class="MagicScroll" data-options="speed: 4000; autoplay: 1; mode: carousel; arrows: inside; pagination: true; draggable: true; width: 100%; height: 400px;">
+                    <img class="MSimg1" src='./source/image/1.jpg' />
+                    <img class="MSimg1" src='./source/image/1.jpg' />
+                    <img class="MSimg1" src='./source/image/1.jpg' />
+                    <img class="MSimg1" src='./source/image/1.jpg' />
+                    <img class="MSimg1" src='./source/image/1.jpg' />
 
 
-    </div>
+                </div>
+            </div>
+
+            <div class="newsSlideRight2">
+                <?php
+              include('tableone.php');
+            ?>
             </div>
             <div class="newsSlideRight2">
+                <?php
+              include('tabletwo.php');
+            ?>
             </div>
         </div>
 
     </div>
 
-    <div id="newsScrolling" class="newsScrolling">
+
+    <!--
+        <div id="newsScrolling" class="newsScrolling">
     </div>
+    -->
+
 
     <div id="bestFooter" class="bestFooter">
 
+
     <div class="socialMediaIcons">
-    </div>
+
+        <div class="leftf">
+            <p class="footerText">Subscribe Us ON</p>
+            <div class="leftfL">
+                <p class="footerText">ON FaceBook</p>
+            </div>
+            <div class="leftfR">
+                <p class="footerText">FaceBook</p>
+            </div>
+            <div class="leftfL">
+                <p class="footerText">ON Telegram</p>
+            </div>
+            <div class="leftfR">
+                <p class="footerText">Telegram</p>
+            </div>
+            <div class="leftfL">
+                <p class="footerText">ON Youtube</p>
+            </div>
+            <div class="leftfR">
+                <p class="footerText">Youtube</p>
+            </div>
+            <div class="leftfL">
+                <p class="footerText">ON Tiktok </p>
+            </div>
+            <div class="leftfR">
+                <p class="footerText">Tiktok</p>
+            </div>
+            <div class="leftfL">
+                <p class="footerText">ON Email</p>
+            </div>
+            <div class="leftfR">
+                <p class="footerText">Email</p>
+            </div>
+            <div class="leftfL">
+                <p class="footerText">Call Us ON</p>
+            </div>
+            <div class="leftfR">
+                <p class="footerText">Phone</p>
+            </div>
+
+        </div>
+
+        <div class="middlef">
+
+        </div>
+
+        <div class="rightf">
+
+        </div>
+
+
 
 
     <div class="developby">
@@ -152,6 +242,7 @@
     <div class="address">
     <p class="footerText">Addis Ababa, Ethiopia</p>
 
+    </div>
     </div>
            <!--
 	<?php include('homefooter.php'); ?>
@@ -162,6 +253,17 @@
 	?>
     </div>
 
+<div class="footeradvert fixed">
+        <div style={{
+            width: 100%;
+            bottom: 0;
+            position: fixed;
+        }}>
+        <?php
+              include('footeradvert.php');
+            ?>
+    </div>
+    </div>
 </div>
 
 
